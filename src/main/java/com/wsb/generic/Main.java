@@ -43,7 +43,10 @@ public class Main {
         doubleNumbers.printArray();
         System.out.println(doubleNumbers.getNumberOfChange());
 
-        // 17
+        // TASK 17
+        //Extend a Container class to ContainerWithMemory. That class should store every version of your list.
+        // There should be methods that will allow you to restore a specific version, print specific version,
+        // print all the history
 
         ContainerWithMemory<Double> containerWithMemory = new ContainerWithMemory();
         containerWithMemory.add(10.0);
