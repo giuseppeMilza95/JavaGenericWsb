@@ -20,6 +20,7 @@ public class Main {
 
         SuperNumber<Double> num = new SuperNumber<>(10.0);
         SuperNumber<Integer> num2 = new SuperNumber<>(11);
+
         System.out.println(num.returnDoubleValue());
         System.out.println(num.returnIntegerValue());
         num.showType();
